@@ -197,7 +197,6 @@ func tables() []*schema.Table {
 		frauddetector.ExternalModels(),
 		frauddetector.Labels(),
 		frauddetector.Models(),
-		frauddetector.ModelVersions(),
 		frauddetector.Outcomes(),
 		frauddetector.Variables(),
 		fsx.Backups(),
